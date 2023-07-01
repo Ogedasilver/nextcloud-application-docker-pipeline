@@ -7,7 +7,7 @@ pipeline {
     agent any
 
     environment {
-        registry = "757750585556.dkr.ecr.us-east-1.amazonaws.com/class19demo"
+        registry = "641602852547.dkr.ecr.us-east-1.amazonaws.com/nxt-app"
     }
     stages {
         stage('Checkout') {
